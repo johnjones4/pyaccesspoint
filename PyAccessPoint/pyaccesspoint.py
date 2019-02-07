@@ -28,21 +28,21 @@ ignore_broadcast_ssid=0
 #Sets authentication algorithm
 #1 - only open system authentication
 #2 - both open system authentication and shared key authentication
-auth_algs=1
+#auth_algs=1
 #####Sets WPA and WPA2 authentication#####
 #wpa option sets which wpa implementation to use
 #1 - wpa only
 #2 - wpa2 only
 #3 - both
-wpa=3
+#wpa=3
 #sets wpa passphrase required by the clients to authenticate themselves on the network
-wpa_passphrase={1}
+#wpa_passphrase={1}
 #sets wpa key management
-wpa_key_mgmt=WPA-PSK
+#wpa_key_mgmt=WPA-PSK
 #sets encryption used by WPA
-wpa_pairwise=TKIP
+#wpa_pairwise=TKIP
 #sets encryption used by WPA2
-rsn_pairwise=CCMP
+#rsn_pairwise=CCMP
 #################################
 #####Sets WEP authentication#####
 #WEP is not recommended as it can be easily broken into
